@@ -1,5 +1,5 @@
 // next.config.js
-const withImages = require('next-images')
+const withImages = require('next-images');
 
 /** @type {import('next').NextConfig} */
 module.exports = withImages({
@@ -8,10 +8,10 @@ module.exports = withImages({
   },
 
   reactStrictMode: true,
-  
-  exportPathMap: async function() {
+
+  exportPathMap: async function () {
     return {
-      "/": { page: "/" },
+      '/': { page: '/' },
     };
   },
 

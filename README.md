@@ -71,7 +71,9 @@ It is encouraged to use **yarn** so the husky hooks can work properly.
 ```bash
 yarn install
 ```
+
 #### or from empty node_modules
+
 option1: `npx husky-init && yarn`
 option2: `yarn add husky@7.0.4 && yarn install`
 
@@ -88,10 +90,13 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ### 4. Build or Build Static
 
 Build and run:
+
 ```bash
 yarn next build && yarn next start
 ```
+
 Build Static:
+
 ```bash
 yarn next export
 # check static index.html afterwards
