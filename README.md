@@ -57,7 +57,7 @@ You can also check all of the **details and demos** on my blog post:
 2. Using `create-next-app`
 
    ```bash
-   npx create-next-app -e https://github.com/theodorusclarence/ts-nextjs-tailwind-starter project-name
+   npx create-next-app -e https://github.com/13ye/ts-nextjs-tailwind-starter project-name
    ```
 
 3. Deploy to Vercel
