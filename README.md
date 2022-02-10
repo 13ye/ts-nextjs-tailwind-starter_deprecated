@@ -98,7 +98,7 @@ yarn next build && yarn next start
 Build Static:
 
 ```bash
-yarn next export
+yarn next build && yarn next export
 # check static index.html afterwards
 ```
 
