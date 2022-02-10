@@ -1,10 +1,24 @@
+// next.config.js
+const withImages = require('next-images')
+
 /** @type {import('next').NextConfig} */
-module.exports = {
+module.exports = withImages({
   eslint: {
     dirs: ['src'],
   },
 
   reactStrictMode: true,
+  
+  exportPathMap: async function() {
+    return {
+      "/": { page: "/" },
+    };
+  },
+
+  images: {
+    loader: 'akamai',
+    path: '',
+  },
 
   // Uncoment to add domain whitelist
   // images: {
@@ -31,4 +45,4 @@ module.exports = {
 
     return config;
   },
-};
+});
